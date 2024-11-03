@@ -1,0 +1,18 @@
+DATASET:
+  SOURCE: 'EPIC'
+  SRC_TRAINLIST: 'epic_D1_train_vn.pkl'
+  SRC_TESTLIST: 'epic_D1_test_vn.pkl'
+  TARGET: 'EPIC'
+  TGT_TRAINLIST: 'epic_D2_train_vn.pkl'
+  TGT_TESTLIST: 'epic_D2_test_vn.pkl'
+  IMAGE_MODALITY: 'rgb'
+DAN:
+  METHOD: 'DANN'
+MODEL:
+  # METHOD: 'i3d'
+  METHOD: 'uniformer'
+  # ATTENTION: 'LayerCST'
+  ATTENTION: '"None"'
+  # ATTENTION: 'SELayerCT'
+OUTPUT:
+  TB_DIR: 'logs/EPIC-d12d2-dann/'
