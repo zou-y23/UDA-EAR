@@ -3,7 +3,7 @@
 This repository provides the PyTorch implementation of UDA-EAR, an unsupervised domain adaptation method for egocentric action recognition. It uses a dual-branch pipeline with adaptive attention mechanisms to focus on key motion and interaction regions, combined with adversarial domain alignment to transfer fine-grained verb-noun knowledge across domains. 
 
 ## Framework
-![]([https://github.com/zou-y23/UDA-EAR/blob/f14828aea76c51e9ceecf0d3f1c9fa3173a70005/framework.pdf](https://github.com/zou-y23/UDA-EAR/blob/226c957905514f17e0d55bb33735ec49cc5f0427/framework.png))
+![](https://github.com/zou-y23/UDA-EAR/blob/226c957905514f17e0d55bb33735ec49cc5f0427/framework.png)
 
 ## Datasets
 Prepare the datasets (EPIC-8 [1], and GTEA_KITCHEN-6 [2]) according to the instructions.
